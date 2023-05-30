@@ -1,12 +1,12 @@
 # MSc-Slurm-Code-Pt-2
-This code covers Mafft to OptrimAl pt 2
-If you haven't already, software to install:
-Mafft
-CIAlign
-Optrimal
-Julia
-IQTREE
-raxml-ng
+This code covers Mafft to OptrimAl pt 2 
+If you haven't already, software to install:    
+Mafft   
+CIAlign 
+Optrimal        
+Julia   
+IQTREE  
+raxml-ng        
 weighted ASTRAL (or ASTRAL III if you do not figure out ASTRAL-w)
 
 
