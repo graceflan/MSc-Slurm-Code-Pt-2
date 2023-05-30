@@ -1,5 +1,5 @@
 # MSc-Slurm-Code-Pt-2
-This code covers Mafft to OptrimAl pt 2 
+This code covers Mafft to OptrimAl pt 2         
 If you haven't already, software to install:    
 Mafft   
 CIAlign 
