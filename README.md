@@ -290,7 +290,7 @@ name=$(awk -v lineid=$SLURM_ARRAY_TASK_ID 'NR==lineid{print;exit}' /mnt/DIR/HP_o
 echo $name
 
 /home/DIR/apps/julia-1.9.0/bin/julia /home/DIR/apps/TAPER-master/correction_multi.jl -m N -a N "$name"_alM_r_o.fasta > "$name"_alM_r_cT.fasta
-``
+```
 
 
 
