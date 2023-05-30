@@ -1,7 +1,7 @@
 # MSc-Slurm-Code-Pt-2
 This code covers Mafft to ...
 
-##MAFFT
+## MAFFT
 ```
 #!/bin/bash
 #
@@ -38,7 +38,7 @@ Remove any "_R_" once the program is complete
 ```
 for f in *_alM.fasta; do (sed -e 's/_R_//g' $f > ${f/.fasta}_r.fasta); done
 ```
-##Optrimal
+## Optrimal
 
 Uploding code
 ```
@@ -61,7 +61,7 @@ sbatch /home/DIR/OptrimAl_script.sh
 ```
 
 ----------------------
-CIAlign
+## CIAlign
 ```
 #!/bin/bash
 #
