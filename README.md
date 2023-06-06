@@ -253,7 +253,7 @@ name=$(awk -v lineid=$SLURM_ARRAY_TASK_ID 'NR==lineid{print;exit}' /mnt/DIR/HP_o
 
 echo $name
 
-CIAlign.py --infile "$name"_alM_r_o.fasta --outfile_stem "$name"_alM_r_o_CI85 --remove_divergent --remove_divergent_minperc 0.85 --retain_str Ceroxylon --plot_input --plot_output --plot_markup
+CIAlign.py --infile "$name"_alM_r_o.fasta --outfile_stem "$name"_alM_r_o_CI85 --remove_divergent --remove_divergent_minperc 0.85 --retain_str *genus* --plot_input --plot_output --plot_markup
 mv "$name"_alM_r_o_CI85_cleaned.fasta "$name"_alM_r_o_CI85.fasta
 ```
 
