@@ -3,7 +3,7 @@ This code covers Mafft to OptrimAl pt 2
 If you haven't already, software to install:    
 Mafft   
 CIAlign 
-Optrimal        
+        Optrimal        
 Julia   
 IQTREE  
 raxml-ng        
